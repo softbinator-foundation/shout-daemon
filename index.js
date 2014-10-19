@@ -1,11 +1,11 @@
 var mysql = require('mysql');
 var Parse = require('parse').Parse;
-Parse.initialize("4k2WL9VnC1Jq59Yp07gRZ1oWjUtci6LBMBirRZLP", "RV83s9t5IbjCCYAr63ELN1xAth5PDIqdTgm4jM1w");
+Parse.initialize("", "");
 var mysqlCon = {
-    host: '178.63.71.132',
-    user: 'rotunnel_sms',
-    password: 'BaldedMoveGlumlySome31',
-    database: 'rotunnel_sms',
+    host: '',
+    user: '',
+    password: '',
+    database: '',
     insecureAuth: true
 };
 var gammuDB = mysql.createConnection(mysqlCon);
